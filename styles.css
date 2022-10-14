@@ -16,10 +16,10 @@
     padding: 50px;	
     border: 2px solid black;
     border-radius: 50px;
-    grid-auto-rows: auto;
+  
   }
   .cells {
     background-color: #EEE;
-    border: .5px solid gray;
+    /*border: .5px solid gray;*/
   
   }
