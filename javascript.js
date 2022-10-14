@@ -12,11 +12,7 @@ let cell = document.createElement('div');
 cell.classList.add('cells');
 cell.addEventListener("mouseover", colorFunction)
 container.appendChild(cell);
+let r = document.querySelector(':root');
+r.style.setProperty('--columnCount', j)
 }
 
-//dynamic grid size by columns
-let r = document.querySelector(':root');
-function gridSize_set(){
-    r.style.setProperty('--columnCount', j)
-}
-gridSize_set()
