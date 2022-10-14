@@ -1,17 +1,25 @@
+ :root{
+  --columnCount: 16;
+ }
+ 
  #container {
   display:flex;
   justify-content: center;
 }
 #gridContainer {
-    display: inline-grid;
-    grid-template-columns: repeat(16, 1fr);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(var(--columnCount), 1fr);
     background-color: rgb(221, 24, 24);
+    width: 320px;
+    height: 320px;
     padding: 50px;	
-    border-radius: 50px;;
+    border: 2px solid black;
+    border-radius: 50px;
+    grid-auto-rows: auto;
   }
   .cells {
     background-color: #EEE;
     border: .5px solid gray;
-    height: 15px;
-    width: 15px;
+  
   }
