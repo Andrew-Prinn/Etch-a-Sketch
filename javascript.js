@@ -1,8 +1,25 @@
-//draw black
+let color = 'black';
 function colorFunction(e) {
-    e.target.style.backgroundColor = "black";
+    e.target.style.backgroundColor = color;
 }
-
+function red(){
+    return color = 'red';
+}
+function green(){
+    return color = 'green';
+}
+function yellow(){
+    return color = 'yellow';
+}
+function blue(){
+    return color = 'blue';
+}
+function black(){
+    return color = 'black';
+}
+function white(){
+    return color = 'white';
+}
 const container = document.querySelector('#gridContainer');
 for (i = 0; i < (16*16); i++){
     let cell = document.createElement('div');
@@ -28,7 +45,6 @@ function creategrid(){
         alert("That's....not right. Try it again. Between 0 and 100 this time. Whole numbers only.");
     }
 }
-
 
 function newGrid(){
     const cells = document.querySelectorAll('.cells');
