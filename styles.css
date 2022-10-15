@@ -1,3 +1,7 @@
+ * {
+  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+  color: #EEE;
+ }
  :root{
   --columnCount: 16;
   --cellColor: #EEE;
@@ -32,7 +36,7 @@
   }
 
   body {
-    background-color: gray;
+    background-color: darkslategray;
   }
 
   .red {
@@ -42,4 +46,13 @@
   .blue {
     background-color: blue;
     border: .1px solid lightgrey;
+  }
+
+  button{
+    color:black;
+  }
+
+  #banner {
+    display: flex;
+    justify-content: center;
   }
