@@ -53,5 +53,3 @@ function newGrid(){
     });
     creategrid();
 }
-
-//test
